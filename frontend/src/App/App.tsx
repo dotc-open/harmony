@@ -1,7 +1,12 @@
 import { ChakraProvider } from '@chakra-ui/react'
+import { AppRouter } from './AppRouter'
 
 function App() {
-  return <ChakraProvider>Harmony</ChakraProvider>
+  return (
+    <ChakraProvider>
+      <AppRouter />
+    </ChakraProvider>
+  )
 }
 
 export default App
